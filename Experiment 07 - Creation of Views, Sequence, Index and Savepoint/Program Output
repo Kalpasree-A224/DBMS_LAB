@@ -1,0 +1,20 @@
+EXPERIMENT 7
+Creation of Views, Sequence, Index and Savepoint
+
+EXPECTED OUTPUT / RESULT
+
+View CSE_STUDENTS:
+ROLLNO | NAME | MARKS
+101 | ARUN | 85
+103 | KUMAR | 78
+105 | RAHUL | 92
+
+Sequence:
+First NEXTVAL = 106
+Second NEXTVAL = 107
+The subsequent INSERT using NEXTVAL receives 108.
+
+SAVEPOINT:
+After ROLLBACK TO SP1, MOHAN (ROLLNO 106) remains and LATHA (ROLLNO 107) is removed. COMMIT makes the remaining change permanent.
+
+The index query for NAME='ARUN' returns the ARUN record.

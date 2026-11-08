@@ -1,0 +1,13 @@
+EXPERIMENT 8
+Normalization in Oracle (1NF, 2NF, 3NF, 4NF, 5NF) using Functional Dependencies
+
+EXPECTED OUTPUT / RESULT
+
+The final normalized design consists of:
+1NF: StudentCourse_1NF with atomic values and one row per (SID, Course).
+2NF: Student, Course_Faculty, and Enrollment.
+3NF: Department, Faculty_Dept, and Course_3NF.
+4NF: Faculty_Course and Faculty_Language.
+5NF: Faculty_Course_5NF, Course_Textbook_5NF, and Faculty_Textbook_5NF.
+
+The manual's result states that the decomposed tables are created, populated, and verified. The exact SELECT output depends on the rows inserted; the source provides the sample rows and reconstruction joins.

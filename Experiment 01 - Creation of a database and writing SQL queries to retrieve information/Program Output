@@ -1,0 +1,19 @@
+EXPERIMENT 1
+Creation of a database and writing SQL queries to retrieve information
+
+EXPECTED OUTPUT / RESULT
+
+Student table:
+StudentID | StudentName | Department | Age | CGPA
+101 | Anu | CSE | 20 | 8.90
+102 | Bala | ECE | 21 | 8.50
+103 | Charles | IT | 20 | 9.10
+104 | Divya | CSE | 22 | 8.70
+105 | Esha | AIDS | 21 | 9.20
+
+CSE filter: Anu, Divya.
+CGPA > 8.8: Anu (8.90), Charles (9.10), Esha (9.20).
+Descending CGPA: Esha, Charles, Anu, Divya, Bala.
+TotalStudents: 5.
+Average CGPA: 8.88.
+

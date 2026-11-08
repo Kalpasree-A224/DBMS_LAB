@@ -1,0 +1,15 @@
+EXPERIMENT 2
+Insertion, Deletion, Modification, Altering, Updating and Viewing records based on conditions
+
+AIM
+To write and execute SQL queries to perform Insertion, Deletion, Modification, Updating, Altering, and Viewing of records based on specified conditions using DML and DDL commands.
+
+THEORY
+INSERT adds records. SELECT with WHERE displays records matching conditions. UPDATE modifies existing records. DELETE removes records. ALTER TABLE changes table structure by adding, modifying, renaming, or dropping columns. The manual also demonstrates BETWEEN, IN, LIKE, AND, OR, and ORDER BY.
+
+PROCEDURE
+Create the Employee table, insert records, view records using conditions, update salaries, delete selected records, and alter the table structure.
+
+RESULT
+The required DML and DDL operations are represented in the program.
+

@@ -1,0 +1,18 @@
+EXPERIMENT 7
+Creation of Views, Sequence, Index and Savepoint
+
+AIM
+To study and execute SQL commands for creating and using Views, Sequences, Indexes, and Savepoints in a relational database.
+
+OBJECTIVES
+• Create a View to display selected data.
+• Create and use a Sequence to generate unique numeric values.
+• Create an Index to improve data retrieval speed.
+• Use SAVEPOINT and ROLLBACK TO SAVEPOINT to control transactions.
+
+THEORY
+A View is a virtual table based on a SELECT query. A Sequence generates numeric values. An Index can speed up retrieval on frequently searched columns. SAVEPOINT marks a point in a transaction; ROLLBACK TO returns to that point.
+
+RESULT
+The program demonstrates creation and use of a View, Sequence, Index, and Savepoint.
+

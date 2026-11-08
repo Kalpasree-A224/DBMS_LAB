@@ -1,0 +1,15 @@
+EXPERIMENT 3
+Practicing DCL and TCL Commands
+
+EXPECTED OUTPUT / RESULT
+
+The DCL statements grant and revoke the specified permissions for user1.
+
+For the Book exercise, the expected final table in the manual is:
+BookID | Title | Category | Price
+101 | Database System | Database | 550.00
+102 | C Programming | Programming | 495.00
+103 | Java Programming | Programming | 715.00
+104 | Python Basics | Programming | 770.00
+105 | Computer Networks | Networking | 600.00
+

@@ -1,0 +1,12 @@
+EXPERIMENT 1
+Creation of a database and writing SQL queries to retrieve information
+
+AIM
+To create a database, create tables, insert records into the tables, and write SQL queries to retrieve information from the database.
+
+THEORY 
+The experiment demonstrates database creation, table creation, insertion of records, SELECT queries, filtering with WHERE, sorting with ORDER BY, and summary functions COUNT and AVG.
+
+RESULT
+The Student table is created and populated with five records. Retrieval, filtering, sorting, counting, and average-CGPA queries are included in the program.
+

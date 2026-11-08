@@ -1,0 +1,17 @@
+EXPERIMENT 4
+Creating a database to set various constraints
+
+EXPECTED OUTPUT / RESULT
+
+Valid records:
+roll_no 101 — Arun, age 20, gender Male, dept_id 1.
+roll_no 102 — Priya, age 21, gender Not Specified (DEFAULT), dept_id 2.
+
+The following inserts are expected to fail:
+• NULL name — NOT NULL violation.
+• Duplicate email — UNIQUE violation.
+• Duplicate roll_no — PRIMARY KEY violation.
+• Age 35 — CHECK violation.
+• dept_id 9 — FOREIGN KEY violation.
+
+After adding and dropping chk_name, DESC Student displays the table structure. Exact error wording depends on the DBMS/version.

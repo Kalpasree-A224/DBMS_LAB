@@ -1,0 +1,13 @@
+EXPERIMENT 10
+PL/SQL Programming — conditional blocks, exceptions, procedures, functions, triggers, cursors
+
+AIM
+The manual states: To implement exception handling in PL/SQL and handle a predefined exception.
+
+THEORY
+A PL/SQL block contains DECLARE (optional declarations), BEGIN (executable statements), EXCEPTION (error handlers), and END. The experiment covers conditional blocks, predefined and user-defined exceptions, stored procedures, functions, triggers, and implicit/explicit cursors.
+
+RESULT
+The manual provides PL/SQL examples for conditional logic, exception handling, procedures, functions, triggers, and cursors. The explicit sample output includes “JONES earns 29750”.
+
+

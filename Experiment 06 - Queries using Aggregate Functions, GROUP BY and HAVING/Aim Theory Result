@@ -1,0 +1,15 @@
+EXPERIMENT 6
+Queries using Aggregate Functions, GROUP BY and HAVING
+
+OBJECTIVE
+To understand and implement SQL aggregate functions (COUNT, SUM, AVG, MIN, MAX) along with GROUP BY and HAVING to summarize, group, and filter grouped data.
+
+THEORY
+Aggregate functions calculate a single summary value from a set of rows. GROUP BY creates summary rows for each group. HAVING filters groups after aggregation, whereas WHERE filters individual rows before grouping.
+
+LOGICAL ORDER
+FROM → WHERE → GROUP BY → HAVING → SELECT → ORDER BY
+
+RESULT
+The program demonstrates aggregate calculations, grouping, and filtering grouped results.
+

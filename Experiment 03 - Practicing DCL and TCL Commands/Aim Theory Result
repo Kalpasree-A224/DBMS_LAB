@@ -1,0 +1,23 @@
+EXPERIMENT 3
+Practicing DCL and TCL Commands
+
+AIM
+To understand and practice DCL and TCL commands in SQL.
+
+OBJECTIVES
+• Learn GRANT and REVOKE commands.
+• Understand COMMIT, ROLLBACK and SAVEPOINT.
+• Manage transactions effectively.
+• Control user access to database objects.
+
+ALGORITHM
+1. Create a table and insert sample records.
+2. Practice GRANT and REVOKE.
+3. Perform UPDATE operations.
+4. Create a SAVEPOINT.
+5. Use ROLLBACK and COMMIT.
+6. Verify the records.
+
+RESULT
+DCL permissions and TCL transaction-control commands are demonstrated.
+

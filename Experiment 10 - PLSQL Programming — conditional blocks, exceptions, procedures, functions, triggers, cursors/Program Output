@@ -1,0 +1,23 @@
+EXPERIMENT 10
+PL/SQL Programming — conditional blocks, exceptions, procedures, functions, triggers, cursors
+
+EXPECTED OUTPUT / RESULT
+
+Conditional IF-ELSIF for employee 102 (ALLEN, salary 15000):
+ALLEN: Grade B
+
+Searched CASE bonus for employee 103 (SALESMAN, salary 12500):
+Bonus: 1250
+
+Predefined exception for employee number 999:
+No employee with that number.
+
+OUT-parameter procedure for employee 104:
+JONES earns 29750
+
+IN OUT procedure with input 7:
+Result: 49
+
+The trigger trg_check_sal rejects a negative salary with application error -20010. The audit trigger records DML changes in EMP_AUDIT. The implicit cursor reports the number of rows updated; the explicit cursor prints employees ordered by salary descending.
+
+The manual explicitly gives “JONES earns 29750” as an expected output. Other output formatting depends on SQL*Plus settings.

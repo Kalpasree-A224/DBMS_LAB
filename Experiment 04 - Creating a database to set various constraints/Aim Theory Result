@@ -1,0 +1,15 @@
+EXPERIMENT 4
+Creating a database to set various constraints
+
+AIM
+To create tables and demonstrate the use of SQL constraints: PRIMARY KEY, FOREIGN KEY, UNIQUE, NOT NULL, CHECK, and DEFAULT, including adding and removing constraints on an existing table.
+
+THEORY
+Constraints are rules enforced on table columns to maintain data accuracy, validity, and integrity. PRIMARY KEY uniquely identifies a row; FOREIGN KEY maintains referential integrity; UNIQUE prevents duplicate values; NOT NULL disallows NULL; CHECK validates a condition; DEFAULT supplies a value when one is omitted.
+
+PROCEDURE
+Create Department and Student tables, insert valid records, attempt invalid inserts to demonstrate constraint violations, add and drop a CHECK constraint, and inspect the table structure.
+
+RESULT
+The program demonstrates the listed constraints and their expected effects.
+

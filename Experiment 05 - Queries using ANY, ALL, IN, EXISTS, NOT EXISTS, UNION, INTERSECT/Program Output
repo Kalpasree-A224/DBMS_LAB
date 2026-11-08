@@ -1,0 +1,17 @@
+EXPERIMENT 5
+Queries using ANY, ALL, IN, EXISTS, NOT EXISTS, UNION, INTERSECT
+
+EXPECTED OUTPUT / RESULT
+
+IN (Computer Science or Mechanical): Arun, Kumar, Sita.
+NOT IN course_id 4: Sita, Meena.
+ANY (marks > ANY course 2): records with marks greater than at least one course-2 mark (45).
+ALL (marks > ALL course 2): records with marks greater than the highest course-2 mark (60).
+EXISTS (departments having students): Computer Science, Electronics, Mechanical.
+NOT EXISTS (students with no enrollment): empty set for the supplied data.
+NOT EXISTS (departments with no courses): empty set for the supplied data.
+UNION: distinct roll numbers 101 and 103.
+UNION ALL: 101, 103, 103.
+INTERSECT: roll numbers 101 and 103.
+
+Constraint recap inserts are expected to raise errors for NOT NULL, UNIQUE, CHECK, and FOREIGN KEY violations.

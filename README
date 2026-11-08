@@ -1,0 +1,15 @@
+DBMS LAB — EXPERIMENT FILES
+
+Each experiment folder contains exactly three extensionless files:
+1. Aim Theory Result
+2. SQL Program
+3. Program Output
+
+Experiments 1–10:
+The complete experiment section from the supplied DBMS LAB.docx is retained in SQL Program so that no source query/program is omitted. Aim Theory Result contains a clean write-up. Program Output contains expected outputs or clearly marked calculated outputs based on the manual's sample data.
+
+Experiment 11:
+The contents page lists Mini Database Design Projects (Student Info System, Hospital Management, Railway Reservation, Timetable Management, Hotel Management), but the supplied document contains no detailed experiment section/program for it. The folder documents this limitation instead of fabricating a submission.
+
+IMPORTANT DIALECT NOTE:
+The supplied manual mixes MySQL-style syntax (for example CREATE DATABASE / USE, multi-row INSERT, and some ALTER TABLE forms) with Oracle SQL/PLSQL syntax. Experiments 7, 8, and 10 are Oracle-oriented; Experiment 9 explicitly names MySQL 8.x / MySQL Workbench. Do not assume every statement runs unchanged in Oracle SQL*Plus. The program files preserve the supplied manual content rather than silently rewriting the lab's source.

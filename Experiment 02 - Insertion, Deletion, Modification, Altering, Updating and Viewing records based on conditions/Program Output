@@ -1,0 +1,11 @@
+EXPERIMENT 2
+Insertion, Deletion, Modification, Altering, Updating and Viewing records based on conditions
+
+EXPECTED EFFECTS / RESULT
+
+• Three new employee records are to be inserted (the manual leaves the choice of records to the student).
+• Finance employees earning more than 40,000 are displayed.
+• Every IT employee's salary is increased by 10%.
+• Employees whose JoinDate is before 2020 are deleted.
+• Phone VARCHAR(15) is added.
+• Department is renamed to Dept.

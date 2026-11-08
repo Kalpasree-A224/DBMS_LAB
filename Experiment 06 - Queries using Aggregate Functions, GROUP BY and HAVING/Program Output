@@ -1,0 +1,26 @@
+EXPERIMENT 6
+Queries using Aggregate Functions, GROUP BY and HAVING
+
+EXPECTED OUTPUT / RESULT
+
+Calculated from the 10 Employee records in the manual:
+TotalEmployees = 10
+TotalSalary = 545000
+AverageSalary = 54500
+HighestSalary = 75000
+LowestSalary = 35000
+
+Department summary:
+Department | Employee count | Average salary
+IT | 4 | 61750
+HR | 3 | 45333.33 (approx.)
+Finance | 3 | 54000
+
+Departments with more than 3 employees: IT.
+Departments with average salary above 50000: IT, Finance.
+City-wise total salary:
+Chennai | 211000
+Bangalore | 206000
+Mumbai | 128000
+
+These are calculated expected values from the sample rows; actual display formatting/decimal precision depends on the SQL environment.

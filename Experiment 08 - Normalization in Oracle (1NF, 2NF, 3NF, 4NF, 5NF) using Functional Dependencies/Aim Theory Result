@@ -1,0 +1,21 @@
+EXPERIMENT 8
+Normalization in Oracle (1NF, 2NF, 3NF, 4NF, 5NF) using Functional Dependencies
+
+AIM
+To study and implement Normalization (1NF, 2NF, 3NF, 4NF, 5NF) using Functional Dependencies, and to design and create normalized tables in Oracle using SQL.
+
+THEORY
+Normalization organizes data to reduce redundancy and avoid insertion, update, and deletion anomalies. Functional Dependency X → Y means each value of X determines exactly one value of Y.
+• 1NF: atomic values; no repeating groups.
+• 2NF: 1NF and no partial dependency.
+• 3NF: 2NF and no transitive dependency.
+• BCNF: every determinant is a candidate key.
+• 4NF: BCNF and no multivalued dependency.
+• 5NF/PJNF: 4NF and no non-key join dependency.
+
+PROCEDURE
+Analyze the unnormalized StudentCourse relation and decompose it step by step, creating and populating the normalized Oracle tables.
+
+RESULT
+The manual demonstrates decomposition through 1NF, 2NF, 3NF, 4NF, and 5NF using functional-dependency analysis.
+

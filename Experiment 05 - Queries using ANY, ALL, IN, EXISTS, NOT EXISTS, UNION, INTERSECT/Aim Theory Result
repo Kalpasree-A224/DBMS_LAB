@@ -1,0 +1,15 @@
+EXPERIMENT 5
+Queries using ANY, ALL, IN, EXISTS, NOT EXISTS, UNION, INTERSECT
+
+AIM
+To write and execute SQL queries using ANY, ALL, IN, EXISTS, and NOT EXISTS, set operations UNION and INTERSECT, and integrity constraints on related tables.
+
+THEORY
+IN checks membership in a list or subquery. ANY is true when a comparison holds for at least one returned value; ALL requires it to hold for every value. EXISTS tests whether a subquery returns rows; NOT EXISTS tests whether it returns none. UNION combines results and removes duplicates; UNION ALL retains duplicates; INTERSECT returns common rows. Participating SELECT statements must return the same number of compatible columns.
+
+PROCEDURE
+Create Department, Student, Course, and Enrollment tables; insert sample data; execute the subqueries and set operations; then test constraint violations.
+
+RESULT
+The operators and set operations are demonstrated using the related sample tables.
+

@@ -1,0 +1,47 @@
+EXPERIMENT 9
+Creating relationships between databases and performing Joins, Sub-queries
+
+EXPECTED OUTPUT / RESULT
+
+Using the sample rows in the manual:
+
+INNER JOIN students and departments:
+101 Anu CSE
+102 Bala CSE
+103 Charan ECE
+104 Divya IT
+
+LEFT JOIN (all students):
+101 Anu CSE
+102 Bala CSE
+103 Charan ECE
+104 Divya IT
+105 Esha NULL
+
+Department LEFT JOIN Student:
+CSE: Anu, Bala
+ECE: Charan
+IT: Divya
+MECH: no matching student
+
+Student-course enrollments:
+Anu — DBMS — 88
+Anu — Data Structures — 91
+Bala — DBMS — 76
+Charan — Digital Systems — 84
+Divya — Web Technology — 95
+
+Marks > 80:
+Anu — Data Structures — 91
+Charan — Digital Systems — 84
+Divya — Web Technology — 95
+
+Sub-queries:
+CGPA above overall average: Anu (8.70), Divya (9.10).
+CSE students: Anu, Bala.
+DBMS-enrolled students: Anu, Bala.
+Courses with credits > ANY ECE course: DBMS, Data Structures.
+CGPA above own department average: Anu.
+Highest CGPA: Divya (9.10).
+
+The supplied manual leaves the “Expected result” placeholders blank; the values above are calculated from its sample data.
